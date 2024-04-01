@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section{
+
+
+}
+
+body.pag1 {
+  background-color: #191622;
+}
+
+nav {
+  background-color: #13111B;
+  text-align: right;
+  padding: 8px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+
+a {
+  font: 1.1em 'Poppins', sans-serif;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+a:hover{
+  color: #E7DE79;
+}
+
+header {
+  background-color: #191622;
+  
+}
+
+.menu {
+  color: #FF79C6;
+  margin-right: 40px;
+  background-color: #13111B;
+}
+
+.sobre {
+  padding: 40px;
+}
+
+#img-moldura {
+  border-radius: 100% 100% 100% 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 50px 100px;
+}
+
+.img-redes {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 10px 10px;
+  position: relative;
+  right: 30px;
+  bottom: 10px;
+  padding-bottom: 3%;
+}
+
+h1 {
+  text-align: center;
+  color: #5AE468;
+  font-family: 'Roboto Mono';
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  color: #E7DE79;
+  font: 1em 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  text-align: left;
+  color: #FF79C6;
+  font-family: 'Roboto Mono';
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #5AE468;
+  font-family: 'Roboto Mono';
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  text-align: left;
+}
+
+main {
+  background-color: #13111B;
+}
+
+#pag-sobre{
+  padding: 10px;
+  height: auto;
+}
+
+
+
+.infos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+.info-pessoal, .caixa1, .caixa2, .caixa3{
+  background-color: #191622;
+  width: 40%;
+  height: auto;
+  margin:10px;
+  padding: 20px;
+}
+
+
+.info-pessoal h3, .caixa1 h3, .caixa2 h3, .caixa3 h3{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  text-align: center;
+ 
+ 
+}
+
+.caixa1 p, .caixa2 p, .caixa3 p{
+  
+  text-align: left;
+}
+
+
+.barra{
+  width: 250px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #ffffffcc;
+
+}
+
+.barra div{
+  height: 100%;
+  border-radius: 10px;
+  background-color: #3B904A;
+  width: 60%;
+}
+
+/* Aqui altera as porcentagens de acordo com seu nível (básico, intermediário e avançado) */
+
+#info1{
+  width: 66%;
+}
+
+#info2{
+  width: 66%;
+}
+
+#info3{
+  width: 66%;
+}
+
+#info4{
+  width: 66%;
+}
+
+#info5{
+  width: 90%;
+}
+
+#info6{
+  width: 90%;
+}
+
+#pag-projetos {
+  background-color: #191622;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+
+
+.card {
+  background-color: #13111B;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #e0e7e1;
+  transition: 1s;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-img p{
+  color: #9ca09d;
+  text-align: center;
+  font: 1.5em 'Poppins', sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #9ca09d
+}
+
+
+
+.img-card{
+  width: 80%;
+  border-radius: 100% 100% 100% 100%;
+  position: relative;
+  left: 35px;
+  top: 10px;
+
+}
+
+
+.img-card:hover{
+  zoom: 80%;
+}
+
+
+.texto-card {
+  padding: 10px;
+}
+
+.texto-card p {
+  font-size: 1em;
+  text-align: center;
+}
+
+footer {
+  background: #13111B;
+  padding: 2px;
+ 
+}
+
+
+footer p, footer a{
+  color: #D65577;
+  text-align: center;
+  font: 1.2em 'Poppins', sans-serif;
+  font-weight: 300;
+  padding: 2px;
+}
+
+.corzinha:hover{
+color: #E7DE79;
+}
+
+#bt-topo{
+  width: 60px;
+  height: 60px;
+  background-color: #FF79C6;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#bt-topo p{
+  color: #FFF;
+  text-align: center;
+  font: 1.5em 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+
+/*Aqui vai começar a aba de contatos*/
+
+body.pag2 {
+  background-color: #191622;
+}
+
+#pag-contato h1 {
+  margin-top: 100px;
+  text-align: left;
+  color: #FF79C6;
+  margin-left: 36px;
+}
+
+#pag-contato {
+  width: 845px;
+  height: 738px;
+  margin: auto;
+}
+
+#container-contato {
+  text-align: center;
+  background-color: #13111B;
+  padding-top: 30px;
+}
+
+#container-contato p {
+  margin-top: 20px;
+}
+
+#pag-contato p{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  color: #E7DE79;
+}
+
+#container-contato, .cor{
+  text-align: left;
+  color: #5AE468;
+  margin-left: 38px;
+  margin-top: 20px ;
+}
+
+.cor:hover{
+  color: #000;
+}
+
+form {
+  width: 400px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 1px solid #C4C4C4;
+}
+
+label {
+  font: 1.3em 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+textarea {
+  height: 80px;
+}
+
+#botoes-form {
+  display: flex;
+}
+
+input[type="submit"], input[type="reset"] {
+  margin: 20px;
+  background-color: #A1DBAC;
+  color: #000;
+  border: 0;
+  border-radius: 1px;
+}
+
+input[type="reset"] {
+  background-color: #EB6C71;
+}
